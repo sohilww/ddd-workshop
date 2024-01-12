@@ -20,3 +20,48 @@
 /Ddd-Workshop/Faremwork.Domain/bin/Debug/net8.0
 /Ddd-Workshop/ProductCatalogs.Domain/bin/Debug/net8.0
 /Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0
+# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+*.cache
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.AssemblyInfoInputs.cache
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.assets.cache
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.csproj.AssemblyReference.cache
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.AssemblyInfo.cs
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Booking.Domain.Tests.csproj.nuget.dgspec.json
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Booking.Domain.Tests.csproj.nuget.g.props
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/project.assets.json
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/project.nuget.cache
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_Booking.Domain.Tests

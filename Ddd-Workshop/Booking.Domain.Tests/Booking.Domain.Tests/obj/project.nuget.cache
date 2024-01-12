@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "dvwIYlLm+L3O3fiqqIQve0m+OZkU/FmeDgUsEUWzJiX7a6Z4/Wbtll4BE4OIzRJnKi55KCErsopgb8052/Nmag==",
+  "success": true,
+  "projectFilePath": "D:\\DDD Hadi\\ddd-workshop\\Ddd-Workshop\\Booking.Domain.Tests\\Booking.Domain.Tests\\Booking.Domain.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\ackee.core\\2.0.72\\ackee.core.2.0.72.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\ackee.domain.model\\2.0.72\\ackee.domain.model.2.0.72.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\ackee.extensions\\2.0.72\\ackee.extensions.2.0.72.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.0\\microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.0\\microsoft.testplatform.testhost.17.6.0.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\mstest.testadapter\\3.0.4\\mstest.testadapter.3.0.4.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\mstest.testframework\\3.0.4\\mstest.testframework.3.0.4.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\Shahrooz\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

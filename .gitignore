@@ -4,3 +4,8 @@
 
 /Ddd-Workshop/.vs/Ddd-Workshop/v17
 *.user
+/Ddd-Workshop/ProductCatalogs.Domain.Tests/obj
+/Ddd-Workshop/ProductCatalogs.Domain/obj
+/Ddd-Workshop/.vs/Ddd-Workshop/FileContentIndex
+/Ddd-Workshop/Booking.Domain/obj
+/Ddd-Workshop/Booking.Domain.Tests/obj

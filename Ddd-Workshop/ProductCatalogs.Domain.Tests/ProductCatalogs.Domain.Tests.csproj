@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.6.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ProductCatalogs\" />
+    <Folder Include="Topics\" />
+  </ItemGroup>
+
 </Project>

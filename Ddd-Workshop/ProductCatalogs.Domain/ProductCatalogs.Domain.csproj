@@ -10,4 +10,9 @@
     <PackageReference Include="Ackee.Domain.Model" Version="2.0.72" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ProductCatalogs\" />
+    <Folder Include="Topics\" />
+  </ItemGroup>
+
 </Project>

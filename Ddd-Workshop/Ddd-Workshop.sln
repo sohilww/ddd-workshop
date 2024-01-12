@@ -7,17 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductCatalogs", "ProductC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E458CD92-6DCD-4BC3-8CB3-A39D37C593FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogs.Domain", "ProductCatalogs.Domain\ProductCatalogs.Domain.csproj", "{9EE6C7D0-59AE-4CF6-8FDD-44476A942A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogs.Domain", "ProductCatalogs.Domain\ProductCatalogs.Domain.csproj", "{9EE6C7D0-59AE-4CF6-8FDD-44476A942A1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductCatalogs.Domain.Tests", "ProductCatalogs.Domain.Tests\ProductCatalogs.Domain.Tests.csproj", "{C01B3E53-0C5A-4951-9F69-BC58523985B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProductCatalogs.Domain.Tests", "ProductCatalogs.Domain.Tests\ProductCatalogs.Domain.Tests.csproj", "{C01B3E53-0C5A-4951-9F69-BC58523985B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Booking", "Booking", "{86D4F9EA-AEE6-4F56-9159-3ACEFD2D0462}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{60966077-7390-4DD9-BD29-6A8BC9C4C52A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Domain", "Booking.Domain\Booking.Domain.csproj", "{82E21B36-CCF4-4411-98B1-1BA147ACBEDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.Domain", "Booking.Domain\Booking.Domain.csproj", "{82E21B36-CCF4-4411-98B1-1BA147ACBEDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Domain.Tests", "Booking.Domain.Tests\Booking.Domain.Tests.csproj", "{B2AB034C-EF3C-496C-A548-DD26B84F4041}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.Domain.Tests", "Booking.Domain.Tests\Booking.Domain.Tests.csproj", "{B2AB034C-EF3C-496C-A548-DD26B84F4041}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Domain", "Faremwork.Domain\Framework.Domain.csproj", "{B81C4430-D9AE-41BB-A2CD-C4FAC9A699D7}"
 EndProject

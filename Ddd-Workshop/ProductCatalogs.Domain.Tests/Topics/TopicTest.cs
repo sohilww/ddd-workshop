@@ -9,16 +9,43 @@ namespace ProductCatalogs.Domain.Tests.Topics
         [Fact]
         public void Define_a_Topic()
         {
-            var title = "Math";
-            var topic = CreateTopic(title);
+            var topic = TopicBuilder.New()
+                .WithTitle("Math")
+                .WithExpertiseLevel(ExpertiseLevel.Beginner)
+                .Build();
 
             topic.Should().NotBeNull();
-            topic.Title.Should().Be(title);
+            topic.Title.Should().Be("Math");
+            topic.ExpertiseLevel.Should().Be(ExpertiseLevel.Beginner);
+            topic.IsActive.Should().BeTrue();
         }
 
-        private static Topic CreateTopic(string title)
+        [Fact]
+        public void Inactivate_a_Topic()
         {
-            var topic = new Topic(title);
+            var topic = TopicBuilder.New().Build();
+
+            topic.Should().NotBeNull();
+            topic.IsActive.Should().BeTrue();
+
+            topic.Inactivate();
+
+            topic.IsActive.Should().BeFalse();
+
+        }
+
+        [Fact]
+        public void Activate_an_inactive_Topic()
+        {
+            var inactiveTopic = CreateAnInactiveTopic();
+
+            inactiveTopic.Activate();
+        }
+
+        private static Topic CreateAnInactiveTopic()
+        {
+            var topic = TopicBuilder.New().Build();
+            topic.Inactivate();
             return topic;
         }
     }

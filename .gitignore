@@ -27,7 +27,7 @@
 project.lock.json
 .DS_Store
 *.pyc
-
+*.dll
 # Visual Studio Code
 .vscode
 
@@ -70,3 +70,17 @@ msbuild.wrn
 /Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0/ProductCatalogs.Domain.Tests.deps.json
 /Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0/ProductCatalogs.Domain.Tests.dll
 /Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0/ProductCatalogs.Domain.Tests.pdb
+/Ddd-Workshop/Booking.Domain/bin/Debug/net8.0/Booking.Domain.dll
+/Ddd-Workshop/Booking.Domain/bin/Debug/net8.0/Booking.Domain.pdb
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/bin/Debug/net8.0/Booking.Domain.dll
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/bin/Debug/net8.0/Booking.Domain.pdb
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/bin/Debug/net8.0/Booking.Domain.Tests.dll
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/bin/Debug/net8.0/Booking.Domain.Tests.pdb
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/ref/Booking.Domain.Tests.dll
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/refint/Booking.Domain.Tests.dll
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.csproj.CoreCompileInputs.cache
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.csproj.FileListAbsolute.txt
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.dll
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.genruntimeconfig.cache
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.pdb
+/Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/Debug/net8.0/Booking.Domain.Tests.sourcelink.json

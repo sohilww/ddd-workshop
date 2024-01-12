@@ -14,17 +14,20 @@ namespace ProductCatalogs.Domain.Tests
         [Fact]
         public void define_weekly_session_with_specific_time_and_count()
         {
+
+            var id = new SessionKey(Guid.NewGuid());
             var money = MoneyFactory.Create(10);
             var count = 10;
             var startTime = new TimeSpan(12, 0, 0);
             var endTime = new TimeSpan(13, 0, 0);
             var specificTime = new SpecificTime(startTime, endTime);
-            var session = new Session(money, DayOfWeekFactory.Create(DayOfWeek.Friday),count,specificTime);
-            
-            
+            var session = new Session(id,money, DayOfWeekFactory.Create(DayOfWeek.Friday),count,specificTime);
+
+            session.Id.Should().Be(id);
             session.Price.Should().Be(money);
             session.DayOfWeek.Should().Be(DayOfWeekFactory.Create(DayOfWeek.Friday));
             session.Count.Should().Be(count);
+            session.SpecificTime.Should().Be(specificTime);
         }
     }
 }

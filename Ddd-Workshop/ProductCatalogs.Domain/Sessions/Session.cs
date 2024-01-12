@@ -2,10 +2,11 @@
 
 namespace ProductCatalogs.Domain.Sessions
 {
-    public class Session : AggregateRoot<ProductCatalogKey>
+    public class Session : AggregateRoot<SessionKey>
     {
-        public Session(Money price, SessionDayOfWeek dayOfWeek, int count, SpecificTime specificTime)
+        public Session(SessionKey id,Money price, SessionDayOfWeek dayOfWeek, int count, SpecificTime specificTime)
         {
+            Id = id;
             Price = price;
             DayOfWeek = dayOfWeek;
             Count = count;

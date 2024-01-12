@@ -1,8 +1,14 @@
-﻿namespace ProductCatalogs.Domain.Topics;
+﻿using Ackee.Domain.Model;
 
-public enum ExpertiseLevel
+namespace ProductCatalogs.Domain.Topics;
+
+public class ExpertiseLevel : ValueObject
 {
-    Beginner = 1,
-    Mid,
-    Advanced
+
+    public ExpertiseLevel(ExpertiseLevelType level)
+    {
+        Level = level;
+    }
+    public ExpertiseLevelType Level { get; private set; }
+
 }

@@ -11,3 +11,12 @@
 /Ddd-Workshop/Booking.Domain.Tests/obj
 /Ddd-Workshop/.vs/Ddd-Workshop/DesignTimeBuild
 *.ncrunchsolution
+/Ddd-Workshop/Faremwork.Domain/obj/Debug/net8.0
+/Ddd-Workshop/Faremwork.Domain/obj
+/Ddd-Workshop/Booking.Domain/bin/Debug/net8.0
+*.dll
+*.pdb
+/Ddd-Workshop/Booking.Domain.Tests/bin/Debug/net8.0
+/Ddd-Workshop/Faremwork.Domain/bin/Debug/net8.0
+/Ddd-Workshop/ProductCatalogs.Domain/bin/Debug/net8.0
+/Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0

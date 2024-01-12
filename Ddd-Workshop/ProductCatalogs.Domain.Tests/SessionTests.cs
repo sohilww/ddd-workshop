@@ -25,7 +25,7 @@ namespace ProductCatalogs.Domain.Tests
             var startTime = new TimeSpan(12, 0, 0);
             var endTime = new TimeSpan(13, 0, 0);
             var specificTime = new SpecificTime(startTime, endTime);
-            var session = new Session(id, money, DayOfWeekFactory.Create(DayOfWeek.Friday), count, specificTime, topicId);
+            var session = new Session(id, money, DayOfWeekFactory.Create(DayOfWeek.Friday), count, specificTime, topicKey);
 
             session.Id.Should().Be(id);
             session.TopicKey.Should().Be(topicKey);

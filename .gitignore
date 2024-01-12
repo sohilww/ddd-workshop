@@ -65,3 +65,8 @@ msbuild.wrn
 /Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/project.assets.json
 /Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/obj/project.nuget.cache
 /Ddd-Workshop/Booking.Domain.Tests/Booking.Domain.Tests/bin/Debug/net8.0/CoverletSourceRootsMapping_Booking.Domain.Tests
+/Ddd-Workshop/ProductCatalogs.Domain/bin/Debug/net8.0/ProductCatalogs.Domain.dll
+/Ddd-Workshop/ProductCatalogs.Domain/bin/Debug/net8.0/ProductCatalogs.Domain.pdb
+/Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0/ProductCatalogs.Domain.Tests.deps.json
+/Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0/ProductCatalogs.Domain.Tests.dll
+/Ddd-Workshop/ProductCatalogs.Domain.Tests/bin/Debug/net8.0/ProductCatalogs.Domain.Tests.pdb

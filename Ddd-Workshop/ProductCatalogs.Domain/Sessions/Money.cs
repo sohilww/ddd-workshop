@@ -1,5 +1,7 @@
 ﻿using Ackee.Domain.Model;
 
+namespace ProductCatalogs.Domain.Sessions;
+
 public class Money : ValueObject
 {
     protected readonly decimal Value;

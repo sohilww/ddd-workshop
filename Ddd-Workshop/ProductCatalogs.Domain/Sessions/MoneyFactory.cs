@@ -1,5 +1,5 @@
 ﻿
-namespace ProductCatalogs.Domain.ProductCatalogs;
+namespace ProductCatalogs.Domain.Sessions;
 
 public static class MoneyFactory
 {

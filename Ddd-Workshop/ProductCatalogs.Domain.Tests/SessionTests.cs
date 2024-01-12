@@ -1,5 +1,5 @@
 ﻿using FluentAssertions;
-using ProductCatalogs.Domain.ProductCatalogs;
+using ProductCatalogs.Domain.Sessions;
 using Xunit;
 
 namespace ProductCatalogs.Domain.Tests

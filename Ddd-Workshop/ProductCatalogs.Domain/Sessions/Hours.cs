@@ -1,5 +1,7 @@
 ﻿using Ackee.Domain.Model;
 
+namespace ProductCatalogs.Domain.Sessions;
+
 public class Hours : ValueObject
 {
     public readonly int Amount;

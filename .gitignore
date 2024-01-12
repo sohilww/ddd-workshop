@@ -9,3 +9,5 @@
 /Ddd-Workshop/.vs/Ddd-Workshop/FileContentIndex
 /Ddd-Workshop/Booking.Domain/obj
 /Ddd-Workshop/Booking.Domain.Tests/obj
+/Ddd-Workshop/.vs/Ddd-Workshop/DesignTimeBuild
+*.ncrunchsolution

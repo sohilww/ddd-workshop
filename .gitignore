@@ -11,3 +11,5 @@
 /Ddd-Workshop/Booking.Domain.Tests/obj
 /Ddd-Workshop/.vs/Ddd-Workshop/DesignTimeBuild
 *.ncrunchsolution
+/Ddd-Workshop/Faremwork.Domain/obj/Debug/net8.0
+/Ddd-Workshop/Faremwork.Domain/obj

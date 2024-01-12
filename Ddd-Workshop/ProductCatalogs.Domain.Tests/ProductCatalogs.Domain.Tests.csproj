@@ -14,7 +14,6 @@
 
   <ItemGroup>
     <Folder Include="ProductCatalogs\" />
-    <Folder Include="Topics\" />
   </ItemGroup>
 
   <ItemGroup>

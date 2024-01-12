@@ -1,5 +1,8 @@
-﻿using FluentAssertions;
+﻿
+
+using FluentAssertions;
 using ProductCatalogs.Domain.Sessions;
+using ProductCatalogs.Domain.Topics;
 using Xunit;
 
 namespace ProductCatalogs.Domain.Tests
@@ -12,18 +15,20 @@ namespace ProductCatalogs.Domain.Tests
     public class SessionTests
     {
         [Fact]
-        public void define_weekly_session_with_specific_time_and_count()
+        public void define_weekly_session_with_specific_time_and_count_and_topic_key()
         {
 
             var id = new SessionKey(Guid.NewGuid());
+            var topicKey = new TopicKey(Guid.NewGuid());
             var money = MoneyFactory.Create(10);
             var count = 10;
             var startTime = new TimeSpan(12, 0, 0);
             var endTime = new TimeSpan(13, 0, 0);
             var specificTime = new SpecificTime(startTime, endTime);
-            var session = new Session(id,money, DayOfWeekFactory.Create(DayOfWeek.Friday),count,specificTime);
+            var session = new Session(id, money, DayOfWeekFactory.Create(DayOfWeek.Friday), count, specificTime, topicId);
 
             session.Id.Should().Be(id);
+            session.TopicKey.Should().Be(topicKey);
             session.Price.Should().Be(money);
             session.DayOfWeek.Should().Be(DayOfWeekFactory.Create(DayOfWeek.Friday));
             session.Count.Should().Be(count);

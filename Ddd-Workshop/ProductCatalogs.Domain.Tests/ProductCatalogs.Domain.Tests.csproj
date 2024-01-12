@@ -8,12 +8,12 @@
 
   <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="6.12.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
     <PackageReference Include="xunit" Version="2.6.5" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="ProductCatalogs\" />
-    <Folder Include="Topics\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -4,15 +4,10 @@ namespace ProductCatalogs.Domain.Sessions;
 
 public class SessionDayOfWeek : ValueObject
 {
-    private readonly DayOfWeek _dayOfWeek;
-
     public SessionDayOfWeek(DayOfWeek dayOfWeek)
     {
-        _dayOfWeek = dayOfWeek;
+        DayOfWeek = dayOfWeek;
     }
-    public DayOfWeek DayOfWeek { get; set; }
-}
 
-public class InvalidRangeException : Exception
-{
+    public DayOfWeek DayOfWeek { get; private set; }
 }

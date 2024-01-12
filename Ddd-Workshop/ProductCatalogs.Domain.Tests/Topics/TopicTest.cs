@@ -11,12 +11,12 @@ namespace ProductCatalogs.Domain.Tests.Topics
         {
             var topic = TopicBuilder.New()
                 .WithTitle("Math")
-                .WithExpertiseLevel(ExpertiseLevel.Beginner)
+                .WithExpertiseLevel(ExpertiseLevelType.Beginner)
                 .Build();
 
             topic.Should().NotBeNull();
             topic.Title.Should().Be("Math");
-            topic.ExpertiseLevel.Should().Be(ExpertiseLevel.Beginner);
+            topic.ExpertiseLevel.Level.Should().Be(ExpertiseLevelType.Beginner);
             topic.IsActive.Should().BeTrue();
         }
 

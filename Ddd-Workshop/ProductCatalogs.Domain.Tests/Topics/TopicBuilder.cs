@@ -4,15 +4,15 @@ namespace ProductCatalogs.Domain.Tests.Topics;
 
 public class TopicBuilder
 {
-    private int _id = 1;
+    private Guid _id = Guid.NewGuid();
     private string _title = "Math";
-    private ExpertiseLevel _expertiseLevel = ExpertiseLevel.Beginner;
+    private ExpertiseLevelType _level = ExpertiseLevelType.Beginner;
 
     private TopicBuilder() { }
 
     public static TopicBuilder New() => new();
 
-    public TopicBuilder WithId(int id)
+    public TopicBuilder WithId(Guid id)
     {
         _id = id;
         return this;
@@ -24,15 +24,16 @@ public class TopicBuilder
         return this;
     }
 
-    public TopicBuilder WithExpertiseLevel(ExpertiseLevel level)
+    public TopicBuilder WithExpertiseLevel(ExpertiseLevelType level)
     {
-        _expertiseLevel = level;
+        _level = level;
         return this;
     }
 
     public Topic Build()
     {
-        var topicId = new TopicId(_id);
-        return new Topic(topicId, _title, _expertiseLevel);
+        var topicId = new TopicKey(_id);
+        var expertiseLevel = new ExpertiseLevel(_level);
+        return new Topic(topicId, _title, expertiseLevel);
     }
 }

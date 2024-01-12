@@ -2,11 +2,11 @@
 
 namespace ProductCatalogs.Domain.Topics
 {
-    public class Topic : AggregateRoot<TopicId>
+    public class Topic : AggregateRoot<TopicKey>
     {
-        public Topic(TopicId id, string title, ExpertiseLevel expertiseLevel)
+        public Topic(TopicKey key, string title, ExpertiseLevel expertiseLevel)
         {
-            Id = id;
+            Id = key;
             Title = title;
             ExpertiseLevel = expertiseLevel;
             IsActive = true;
